@@ -6,7 +6,7 @@ pageextension 50100 CustomerListExt extends "Customer Card"
 {
     trigger OnOpenPage();
     begin
-        Message('App published: Hello world!');
+        Message('App published: Hello worldy!');
         MESSAGE('[' + FORMAT(Name) + ']:Name');
         MESSAGE('[' + FORMAT(Address) + ']:Address');
         MESSAGE('[' + FORMAT("Last Date Modified") + ']:"Last Date Modified"');
